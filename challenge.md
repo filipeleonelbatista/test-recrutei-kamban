@@ -1,6 +1,3 @@
-Aqui está o conteúdo solicitado em markdown:
-
-```markdown
 # Teste Técnico - Desenvolvedor Front-end React
 
 ## Objetivo
@@ -57,6 +54,3 @@ Caso encontre alguma falha no protótipo, você tem duas opções:
 - Implementar uma solução para o problema encontrado.
 
 [Link do Protótipo no Figma](https://www.figma.com/design/Kew8NFFejpS37e18Q4BwRP/Teste-frontend?node-id=0-1)
-```
-
-Este markdown reflete o conteúdo das instruções para o teste técnico【4†source】.
