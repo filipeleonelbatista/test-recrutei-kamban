@@ -33,6 +33,7 @@ export default function App() {
 
     if (task) {
       updateTask({ ...task, status: column });
+
       const updatedTasks = tasks.map(t => t.id === taskId ? { ...t, status: column } : t);
       localStorage.setItem("tasks", JSON.stringify(updatedTasks));
     }

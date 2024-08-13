@@ -14,7 +14,7 @@ interface KanbanColumnProps {
 export default function KanbanColumn({ id, titulo, tarefas, onClick, onDrop, onDragOver, onDragLeave }: KanbanColumnProps) {
   return (
     <div className="flex flex-shrink-0 flex-col gap-4 w-[328px]"
-      onDrop={(e) => onDrop(e, titulo.toLowerCase())}
+      onDrop={(e) => onDrop(e, id)}
       onDragOver={onDragOver}
       onDragLeave={onDragLeave}
     >
