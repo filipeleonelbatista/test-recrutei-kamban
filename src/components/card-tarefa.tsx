@@ -2,7 +2,7 @@ import { formatDate, getDaysRemaining, truncateDescription } from "@/utils/utils
 import { Task } from "../context/TasksContext";
 import { motion } from "framer-motion";
 
-interface CardTarefaProps {
+export interface CardTarefaProps {
   tarefa: Task;
   onClick: (tarefa: Task) => void;
   onDragStart: (e: React.DragEvent<HTMLDivElement>, id: string) => void;

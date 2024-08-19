@@ -44,7 +44,6 @@ export default function App() {
   };
 
   const handleDragLeave = () => {
-    // Optionally handle drag leave if needed
   };
 
   return (
